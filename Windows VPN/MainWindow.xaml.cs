@@ -24,5 +24,15 @@ namespace Apex_Computing___Windows_VPN_Setup
         {
             InitializeComponent();
         }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

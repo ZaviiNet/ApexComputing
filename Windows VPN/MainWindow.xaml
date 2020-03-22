@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Apex_Computing___Windows_VPN_Setup"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Apex Computing Services - VPN Creator" Height="300.452" Width="695.647" Icon="D:\Apex\Projects\Windows VPN\vpn-cloud-icon.png" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="554*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Name" Content="VPN Connection Name:" HorizontalAlignment="Left" Height="26" Margin="25,88,0,0" VerticalAlignment="Top" Width="137" Grid.ColumnSpan="3"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="40,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" Grid.Column="2" Text="VPN Profile 01"/>
+        <Label x:Name="Connection" Content="VPN Connection Address:" HorizontalAlignment="Left" Margin="26,119,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" Grid.Column="2"/>
+        <Label x:Name="Tunnel" Content="Tunnel Type:" HorizontalAlignment="Left" Margin="63,145,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Authentication Level:" HorizontalAlignment="Left" Margin="19,179,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Shared Key:" HorizontalAlignment="Left" Margin="281,171,0,0" VerticalAlignment="Top" Grid.Column="2" RenderTransformOrigin="0.87,0.526"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="291,88,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="291,129,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="41,149,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2">
+            <ComboBoxItem Content="PPTP" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="L2TP" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="SSTP" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="IKEV2" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Automatic" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <ComboBox x:Name="ComboBox2" HorizontalAlignment="Left" Margin="41,181,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2">
+            <ComboBoxItem Content="Pap" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Chap" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="MSChapv2" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Eap" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="MachineCertificate" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <TextBox x:Name="user" HorizontalAlignment="Left" Height="23" Margin="359,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" Grid.Column="2"/>
+        <Button x:Name="btnQuery" Content="Create Connection" HorizontalAlignment="Left" Margin="418,214,0,0" VerticalAlignment="Top" Width="115" Grid.Column="2"/>
+        <PasswordBox x:Name="pass" Grid.Column="2" HorizontalAlignment="Left" Margin="359,132,0,0" VerticalAlignment="Top" Width="174" Height="23"/>
+        <Image Margin="11,0,0,195" Source="D:\Apex\Projects\Windows VPN\Apex-Logo.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Label Content="Apex Computing Services VPN Creator" Grid.Column="2" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <PasswordBox x:Name="SKey" Grid.Column="2" HorizontalAlignment="Left" Margin="359,174,0,0" VerticalAlignment="Top" Width="174" Height="23"/>
+        <Label Content="Encryption Level:" Grid.Column="1" HorizontalAlignment="Left" Margin="41,214,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="ComboBox3" Grid.Column="2" HorizontalAlignment="Left" Margin="41,218,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="NoEncryption" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Optional" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Required" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Maximum" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+
     </Grid>
 </Window>

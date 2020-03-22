@@ -1,0 +1,15 @@
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.csprojAssemblyReference.cache
+D:\Apex\Projects\Windows VPN\obj\Debug\MainWindow.g.cs
+D:\Apex\Projects\Windows VPN\obj\Debug\App.g.cs
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup_MarkupCompile.cache
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup_MarkupCompile.lref
+D:\Apex\Projects\Windows VPN\bin\Debug\Apex Computing - Windows VPN Setup.exe.config
+D:\Apex\Projects\Windows VPN\bin\Debug\Apex Computing - Windows VPN Setup.exe
+D:\Apex\Projects\Windows VPN\bin\Debug\Apex Computing - Windows VPN Setup.pdb
+D:\Apex\Projects\Windows VPN\obj\Debug\MainWindow.baml
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.g.resources
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex_Computing___Windows_VPN_Setup.Properties.Resources.resources
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.csproj.GenerateResource.cache
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.csproj.CoreCompileInputs.cache
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.exe
+D:\Apex\Projects\Windows VPN\obj\Debug\Apex Computing - Windows VPN Setup.pdb
