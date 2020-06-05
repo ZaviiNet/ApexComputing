@@ -1,0 +1,26 @@
+﻿<Window x:Class="Apex_ESET_Tools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apex_ESET_Tools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <TextBox x:Name="Toolinfo" 
+         ScrollViewer.HorizontalScrollBarVisibility="Auto"
+         ScrollViewer.VerticalScrollBarVisibility="Auto"
+         ScrollViewer.CanContentScroll="True" Text="Tool Acknowledgement&#xD;&#xA;Issue &#xA;You have used the ESET Start Menu uninstaller and continue to have problems uninstalling or &#xA;reinstalling your ESET product&#xA;Your ESET product remains active after uninstallation if Uninstallation fails &#xA;The ESET Uninstaller tool should not be used on Microsoft Azure/Amazon VMs &#xA;because the tool must be run on the machine when in safe mode. &#xA;&#xA;Microsoft Azure/Amazon VMs do not have RDP connectivity &#xA;When in safe mode therefore they lock up when restarting in safe mode.&#xA;&#xA;Details&#xA;You are not required to purchase an additional license to reinstall your ESET product. &#xA;&#xA;Your existing license remains functional for the duration of your subscription&#xA;regardless of how many times you remove or install the product on the computer to which it is &#xA;registered." FontSize="16" Height="277" Canvas.Left="25" Canvas.Top="79"/>
+            <Button Content="Continue" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="279" Canvas.Top="378" Click="Continue"/>
+            <Button Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="369" Canvas.Top="378" Click="Exit" RenderTransformOrigin="0.965,-0.333"/>
+            <Image x:Name="Logo" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2" Source="Apex-Logo.jpg"/>
+            <Image Source="Apex-Logo.jpg" Stretch="Fill" Grid.RowSpan="2" Height="64" Canvas.Left="12" Canvas.Top="10" Width="98"/>
+            <Label Content="Apex ESET Tool" Canvas.Left="115" Canvas.Top="32" FontSize="24"/>
+            <TextBlock Canvas.Left="701" Canvas.Top="393" MouseDown="About_Click">           
+            
+                About This tool
+            </TextBlock>
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Apex_ESET_Tools.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apex_ESET_Tools"
+        mc:Ignorable="d"
+        Title="Window2" Height="311" Width="800">
+    <Grid>
+
+        <Canvas>
+            <Image x:Name="Logo" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2" Source="Apex-Logo.jpg"/>
+            <Image Source="Apex-Logo.jpg" Stretch="Fill" Grid.RowSpan="2" Height="64" Canvas.Left="12" Canvas.Top="10" Width="98"/>
+            <Label Content="Apex ESET Tool" Canvas.Left="115" Canvas.Top="32" FontSize="24"/>
+            <ProgressBar Name="B" Height="20" Canvas.Left="371" Canvas.Top="192" Width="393" Minimum="0" />
+            <Button x:Name="_nextbtn" Content="Next" Canvas.Left="657" Canvas.Top="236" Width="107" Click="Next" IsEnabled="False" FontSize="18"/>
+            <TextBox Height="192" Canvas.Left="10" TextWrapping="Wrap" Text="Checking ESET is installed:&#xA;&#xA;Checking ESET Service exists:&#xD;&#xA;&#xD;&#xA;Checking ESET is running:&#xA;&#xA;Checking ESET RegKeys Exist:&#xA;" Canvas.Top="72" Width="343" FontSize="18"/>
+            <TextBox Name="Installed" BorderThickness="0" Canvas.Left="263" Canvas.Top="73" FontSize="18" >Checking</TextBox>
+            <TextBox Name="Running" BorderThickness="0" Canvas.Left="263" Canvas.Top="172" FontSize="18">Checking</TextBox>
+            <TextBox Name="Service"  BorderThickness="0" Canvas.Left="263" Canvas.Top="124" FontSize="18">Checking</TextBox>
+            <TextBox Name="Reg"  BorderThickness="0" Canvas.Left="263" Canvas.Top="218" FontSize="18">Checking</TextBox>
+            <Label Content="Recommended Action:" BorderThickness="0" Canvas.Left="382" Canvas.Top="84"/>
+            <TextBox Name="Action" Height="58" Canvas.Left="392" TextWrapping="Wrap" Canvas.Top="110" Width="281">Awaiting Results of Check...</TextBox>
+        </Canvas>
+    </Grid>
+</Window>

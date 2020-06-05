@@ -1,0 +1,24 @@
+﻿<Window x:Class="Apex_ESET_Tools.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apex_ESET_Tools"
+        mc:Ignorable="d"
+        Title="Window1" Height="404.082" Width="800">
+    <Grid>
+        <Canvas>
+            <Image x:Name="Logo" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2" Source="Apex-Logo.jpg"/>
+            <Image Source="Apex-Logo.jpg" Stretch="Fill" Grid.RowSpan="2" Height="64" Canvas.Left="12" Canvas.Top="10" Width="98"/>
+            <Label Content="Apex ESET Tool" Canvas.Left="115" Canvas.Top="32" FontSize="24"/>
+            <Label Content="Please Select an Option:" Canvas.Left="72" Canvas.Top="126" FontSize="16"/>
+            <TextBlock Canvas.Left="207" TextWrapping="Wrap" Canvas.Top="248" Height="46" Width="510" FontSize="16"><Run Text="Re-Installing Will Restart Your PC into Safemode Run the ESET Uninstaller and Reinstall ESET Anti-Virus "/><Run Text="and Reboot Back to Windows."/></TextBlock>
+            <TextBlock Canvas.Left="207" TextWrapping="Wrap" Text="Removing Will Restart Your PC into Safemode Run the ESET Uninstaller and Reboot Back to Windows," Canvas.Top="310" Height="58" Width="510" FontSize="16"/>
+            <TextBlock Canvas.Left="207" TextWrapping="Wrap" Canvas.Top="187" Height="46" Width="510" FontSize="16" Text="This will check the system for any ESET issues, Check if it's installed; Running or Broken."/>
+        </Canvas>
+        <Button Content="Re-Install" HorizontalAlignment="Left" Margin="36,255,0,0" VerticalAlignment="Top" Width="161" FontSize="20" Click="Reinstall"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="36,318,0,0" VerticalAlignment="Top" Width="161" FontSize="20" Click="Remove"/>
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="639,25,0,0" VerticalAlignment="Top" Width="130" FontSize="20" Click="Exit2"/>
+        <Button Content="Troubleshoot" HorizontalAlignment="Left" Margin="36,193,0,0" VerticalAlignment="Top" Width="161" FontSize="20" Click="Troubleshoot"/>
+    </Grid>
+</Window>

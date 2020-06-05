@@ -1,0 +1,22 @@
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\MainWindow.g.cs
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\App.g.cs
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools_MarkupCompile.cache
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools_MarkupCompile.lref
+C:\Users\tranc\source\repos\Apex ESET Tools\bin\Debug\Apex ESET Tools.exe.config
+C:\Users\tranc\source\repos\Apex ESET Tools\bin\Debug\Apex ESET Tools.exe
+C:\Users\tranc\source\repos\Apex ESET Tools\bin\Debug\Apex ESET Tools.pdb
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\MainWindow.baml
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.g.resources
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex_ESET_Tools.AboutBox1.resources
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex_ESET_Tools.Properties.Resources.resources
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.csproj.GenerateResource.cache
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.csproj.CoreCompileInputs.cache
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.exe
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.pdb
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window1.g.cs
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window1.baml
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window2.g.cs
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window2.baml
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window3.g.cs
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Window3.baml
+C:\Users\tranc\source\repos\Apex ESET Tools\obj\Debug\Apex ESET Tools.csprojAssemblyReference.cache
