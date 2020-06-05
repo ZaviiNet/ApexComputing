@@ -1,0 +1,32 @@
+﻿<Window x:Class="Apex_Password_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apex_Password_Generator"
+        mc:Ignorable="d"
+        Title="Apex Quick Password Generator" Height="419.969" Width="373.565" ResizeMode="CanMinimize" Icon="202-2022896_password-icon-free-download-png-svg-show-password.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="52*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="252" Margin="10,53,0,0" Stroke="Black" VerticalAlignment="Top" Width="338" Grid.Row="1"/>
+
+        <Slider x:Name="numSlider" HorizontalAlignment="Left" Height="55" Margin="30,89,0,0" VerticalAlignment="Top" Width="293" ValueChanged="recalc" Maximum="30" MouseUp="mouseup" Grid.Row="1" />
+        <TextBox x:Name="numText" HorizontalAlignment="Left" Height="20" Margin="77,130,0,0" VerticalAlignment="Top" Width="186" TextWrapping="Wrap" Text="30" TextAlignment="Center" Grid.Row="1"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2"/>
+        <Image Margin="12,13,201,286" Source="Apex-Logo.jpg" Stretch="Fill" Grid.RowSpan="2"/>
+        <Button x:Name="button" Content="Randomize" HorizontalAlignment="Left" Height="23" Margin="111,176,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click" Grid.Row="1"/>
+        <TextBox x:Name="passBox" HorizontalAlignment="Left" Height="38" Margin="31,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" TextAlignment="Center" Grid.Row="1" FontSize="16"/>
+        <Button x:Name="btnCopy" Content="Randomize &amp; Copy" HorizontalAlignment="Left" Margin="111,271,0,0" VerticalAlignment="Top" Width="119" Click="btnCopy_Click" Height="20" Grid.Row="1"/>
+        <Label Content="   Password Length" HorizontalAlignment="Left" Margin="106,58,0,0" VerticalAlignment="Top" Height="26" Width="131" Grid.Row="1"/>
+        <Label Content="Quick Password Generator" HorizontalAlignment="Left" Margin="159,26,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="16" Grid.Row="1"/>
+        <Label x:Name="Version" Content="Version 0.02" HorizontalAlignment="Left" Margin="274,305,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+
+    </Grid>
+</Window>
