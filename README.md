@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://www.apexcomputing.co.uk">
-    <img src="https://www.apexcomputing.co.uk/wp-content/uploads/2020/02/apex-logo-updated.gif" alt="Logo" width="100%" height="100%">
+    <img src="https://www.apexcomputing.co.uk/wp-content/uploads/2020/02/apex-logo-updated.gif" alt="Logo" width="50%" height="50%">
   </a>
 
   <h3 align="center">Apex Tool Set</h3>
