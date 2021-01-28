@@ -95,7 +95,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@_Xzavier](https://twitter.com/_Xzavier) - Jack.Kendal@ApexComputing.co.uk
+Jack Kendal - [@_Xzavier](https://twitter.com/_Xzavier) - Jack.Kendal@ApexComputing.co.uk
 
 Project Link: [https://github.com/ZaviiNet/ApexComputing](https://github.com/ZaviiNet/ApexComputing)
 
