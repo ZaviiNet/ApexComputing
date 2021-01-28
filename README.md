@@ -31,7 +31,7 @@
   <h3 align="center">Apex Tool Set</h3>
 
   <p align="center">
-    A Set of Tools to Jumpstart IT Support within Apex Computing
+    A Set of Tools to Jumpstart IT Support From Apex Computing
   </p>
 </p>
 
